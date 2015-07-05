@@ -4,20 +4,20 @@ mvn clean install exec:java -Dexec.args="./src/test/players.txt ./src/test/match
 
 Sample program cli inputs as below
 
-Report Common Information
+Report Common Information                                                            
 -R
 
-Search by Name
+Search by Name                                                            
 -R Michale
 
-Reload Player and Match Files
+Reload Player and Match Files                                                            
 -F ./src/test/players.txt ./src/test/matchScores.txt
 
-List Players Detail Report
+List Players Detail Report                                                            
 -L
 
-List Random Suggestions
+List Random Suggestions                                                            
 -S
 
-Exit
+Exit                                                            
 -E
