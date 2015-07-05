@@ -1,0 +1,17 @@
+---------------------------------
+
+#foreach( $player in $players )
+---Name: $player.getValue().name
+---List of Wins:-----------------
+Total Number of Wins : $player.getValue().wins.size()
+#foreach($opponentPlayer in $player.getValue().wins)
+	$opponentPlayer.name
+#end
+---List of Losses---------------- 
+Total Number of Losses : $player.getValue().losses.size()
+#foreach($opponentPlayer in $player.getValue().losses)
+	$opponentPlayer.name
+#end	
+---------------------------------
+
+#end

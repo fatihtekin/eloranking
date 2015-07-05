@@ -1,0 +1,9 @@
+---------------------------------
+#foreach( $playerEntry in $players )
+---Name:----$playerEntry.value.name
+---Order:---$foreach.count
+---Rank:----$playerEntry.getValue().rank
+---Wins:----$playerEntry.getValue().wins.size()
+---Losses:--$playerEntry.getValue().losses.size()
+---------------------------------
+#end

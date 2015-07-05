@@ -1,0 +1,5 @@
+------------------------------------------------------------------
+#foreach( $match in $suggestedMatches)
+-----$match.getWinnerPlayer().getName()--- more likely might win against----$match.getLoserPlayer().getName()--
+#end
+------------------------------------------------------------------
